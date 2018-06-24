@@ -1,10 +1,10 @@
 package JAVA8;
 
-@java.lang.FunctionalInterface
+
 public interface FunctionalInterface {
 
 
-    public void add();
+    public void add(String s);
 
     /*
     Static methods can be there in functional interface
