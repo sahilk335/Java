@@ -17,7 +17,7 @@ For example, In Java, String, Integer, Double are Immutable classes, while Strin
 
 
 ## 
-ou can maintain immutability by implementing the following:
+You can maintain immutability by implementing the following:
 
 - Define the class as final to avoid inheriting this class, and thus avoid overriding instance methods.
 - All instance variables are private and final. Private means you can only change it inside the class. Final means you have to assign it once inside the constructor, and can’t be changed then.
